@@ -39,17 +39,47 @@
            <fieldset disabled>
                 <div class="mb-4">
                     <label for="email" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
+                    <input type="email" class="form-control" id="email2" name="email" aria-describedby="emailHelp"
                         placeholder="Insira seu e-mail" disabled>
                     <div id="emailHelp" class="form-text">Não compartilhamos seu endereço de e-mail</div>
                 </div>
                 <div class="mb-4">
                     <label for="password" class="form-label">Senha:</label>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="Digite a sua senha">
+                    <input type="password" class="form-control" id="password2" name="password" placeholder="Digite a sua senha">
                 </div>
-                <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
                 <button type="submit" class="btn btn-primary">Cadastrar</button>
            </fieldset>
+        </form>
+    </div>
+
+    <!-- Form Control -->
+
+    <div class="m-4">
+
+        <h2>Crie seu Post</h2>
+
+        <form>
+            <div class="col-4 mb-4">
+                <label for="title" class="form-label">Título do Post:</label>
+                <input type="text" class="form-control form-control-sm" id="title" placeholder="Digite seu título">
+            </div>
+            <div class="col-4 mb-4">
+                <label for="content" class="form-label">Conteúdo:</label>
+                <textarea class="form-control" placeholder="Digite o conteúdo do post..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+
+        <form>
+            <div class="col-4 mb-4">
+                <label for="title" class="form-label">Título do Post:</label>
+                <input type="text" class="form-control form-control-sm" id="title2" placeholder="Digite seu título">
+            </div>
+            <div class="col-4 mb-4">
+                <label for="content" class="form-label">Conteúdo:</label>
+                <textarea class="form-control form-control-lg" placeholder="Digite o conteúdo do post..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
         </form>
     </div>
 </body>

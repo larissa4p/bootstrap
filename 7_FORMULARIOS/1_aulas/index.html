@@ -118,5 +118,57 @@
       </div>
     </form>
   </div>
+
+  <!-- Outros elementos-->
+  <div class="col-4 m-4">
+    <h2>Outros inputs</h2>
+    <form >
+      <!-- Data List -->
+      <div class="mb-4">
+        <label for="cidade" class="form-label">Selecione uma cidade</label>
+        <input class="form-control" list="datalistOptions" id="cidade" placeholder="Busque a sua cidade">
+        <datalist id="datalistOptions">
+          <option value="São Paulo">
+          <option value="Brasilia">
+          <option value="Rio de Janeiro">
+          <option value="Salvador">
+        </datalist>
+      </div>
+      <!--Cor -->
+      <div class="mb-4">
+        <label for="cor" class="form-label">Selecione a cor:</label>
+        <input type="color" class="form-control form-control-color" id="dor" value="#000" title="Escolha uma cor">
+      </div>
+      <!-- Select -->
+      <div class="mb-4">
+        <label for="opcoes" class="form-label">Selecione a sua: </label>
+        <select class="form-select" name="opcoes" id="opcoes">
+          <option selected">Selecione uma opção</option>
+          <option value="1">Primeira</option>
+          <option value="2">Segunda</option>
+          <option value="3">Terceira</option>
+        </select>
+      </div>
+
+      <div class="mb-4">
+        <label for="opcoes" class="form-label">Selecione as suas: </label>
+        <select class="form-select" multiple>
+          <option value="1">Maçã</option>
+          <option value="2">Banana</option>
+          <option value="3">Laranja</option>
+        </select>
+
+      <div class="mb-4">
+        <label for="opcoes" class="form-label">Selecione a sua: </label>
+        <select class="form-select" name="opcoes2" id="opcoes2" disabled>
+          <option selected">Selecione uma opção</option>
+          <option value="1">Primeira</option>
+          <option value="2">Segunda</option>
+          <option value="3">Terceira</option>
+        </select>
+      </div>
+      </div>
+    </form>
+  </div>
 </body>
 </html>

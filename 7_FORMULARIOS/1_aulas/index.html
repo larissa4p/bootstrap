@@ -167,7 +167,64 @@
           <option value="3">Terceira</option>
         </select>
       </div>
+      <!-- Checkbox e radio button -->
+      <div class="mb-4">
+        <h2>Marque as opções</h2>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="privacidade">
+          <label for="privacidade" class="form-check-label">Aceitar termos de privacidade</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="emails" checked>
+          <label for="desabilitado" class="form-check-label">Quer receber e-mails de propaganda?</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="desabilitado" disabled checked>
+          <label for="desabilitado" class="form-check-label">Esta você não vai marcar</label>
+        </div>
+        <div class="mb-4">
+          <h2>Qual você quer?</h2>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="meu_radio" id="a" value="a" checked>
+            <label for="a" class="form-check-label">Radio checado</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="meu_radio" id="b" value="b" checked>
+            <label for="b" class="form-check-label">Radio checado</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="meu_radio" id="c" value="c" disabled>
+            <label for="c" class="form-check-label">Radio desabilitado</label>
+          </div>
+        </div>
       </div>
+
+        <!-- Switch -->
+      <div class="mb-4">
+        <h2>Escolha suas configurações:</h2>
+        <div class="form-check form-switch">
+          <input type="checkbox" class="form-check-input" id="flex-switch">
+          <label for="flex-switch" class="form-check-label">Você quer ativar isto?</label>
+        </div>
+        <div class="form-check form-switch">
+          <input type="checkbox" class="form-check-input" id="flex-switch-disabled" disabled>
+          <label for="flex-switch-disabled" class="form-check-label">Switch desabilitado</label>
+        </div>
+      </div>
+
+      <!-- Range -->
+      <div class="mb-4">
+        <h2>Por favor responda:</h2>
+        <label for="probabilidade" class="form-label">Qual a probabilidade de você indicar este site para alguém?</label>
+        <input type="range" class="form-range" min="0" max="5" id="probabilidade">
+      </div>
+
+        <div class="mb-4">
+        <h2>Por favor responda:</h2>
+        <label for="probabilidade2" class="form-label">Qual a probabilidade de você indicar este site para alguém?</label>
+        <input type="range" class="form-range" min="0" max="5" id="probabilidade2" disabled>
+      </div>
+
     </form>
   </div>
 </body>

@@ -503,6 +503,102 @@
             </div>
         </div>
         <!-- Drop Down -->
-        
+        <div class="container mb-4">
+            <div class="dropdown mb-4">
+                <a
+                    href="#"
+                    class="btn btn-secondary dropdown-toggle"
+                    role="button"
+                    id="dropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                    Clique aqui
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdown">
+                    <li><a href="#" class="dropdown-item">Link 1</a></li>
+                    <li><a href="#" class="dropdown-item">Link 2</a></li>
+                    <li><a href="#" class="dropdown-item">Link 3</a></li>
+                    <li><a href="#" class="dropdown-item">Link 4</a></li>
+                    <li><a href="#" class="dropdown-item">Link 5</a></li>
+                </ul>
+            </div>
+
+            <!-- A DIREITA -->
+            <div class="dropdown mb-4 dropend">
+                <a
+                    href="#"
+                    class="btn btn-success dropdown-toggle"
+                    role="button"
+                    id="dropdown-rigth"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                    Clique aqui
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdown-rigth">
+                    <li><a href="#" class="dropdown-item">Link 1</a></li>
+                    <li><a href="#" class="dropdown-item">Link 2</a></li>
+                    <li><a href="#" class="dropdown-item">Link 3</a></li>
+                    <li><a href="#" class="dropdown-item">Link 4</a></li>
+                    <li><a href="#" class="dropdown-item">Link 5</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="container mb-4">
+            <button
+                class="btn btn-info"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+            >
+                Abrir Modal
+            </button>
+        </div>
+
+        <!-- Container modal -->
+        <div
+            class="modal fade"
+            id="modal"
+            tabindex="-1"
+            aria-labelledby="modalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel">
+                            Este é o título
+                        </h5>
+                        <button
+                            class="btn-close"
+                            type="button"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Aqui você pode adicionar qualquer coisa!!</p>
+                        <p>você pode adicionar qualquer coisa MESMO!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            class="btn btn-secondary"
+                            type="button"
+                            data-bs-dismiss="modal"
+                        >
+                            Fechar
+                        </button>
+                        <button class="btn btn-success" type="button">
+                            Salvar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

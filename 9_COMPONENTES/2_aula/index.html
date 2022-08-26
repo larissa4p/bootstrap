@@ -20,6 +20,7 @@
             defer
         ></script>
         <title>Componentes 2</title>
+        <script src="js/scripts.js" defer></script>
     </head>
     <body>
         <!-- Navbar 1 -->
@@ -130,5 +131,75 @@
         </nav>
 
         <!-- Off canvas -->
+        <div class="container mt-4 mb-4">
+            <button
+                class="btn btn-primary"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+            >
+                Abrir Carrinho
+            </button>
+
+            <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel"
+            >
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Carrinho</h5>
+                    <button
+                        class="btn-close text-reset"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="container mb-4">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a href="#" class="page-link">Anterior</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">Próxima</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Pop Over -->
+        <div class="container mb-4">
+            <button
+                class="btn btn-lg btn-success"
+                data-bs-toggle="popover"
+                title="Este é o título"
+                data-bs-content="E aqui podemos inserir a descrição!"
+            >
+                Click to tootle popover
+            </button>
+            
+        </div>
     </body>
 </html>
